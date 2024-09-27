@@ -46,7 +46,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -56,13 +56,13 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-  spriteExtrude: 1
+  spriteExtrude: 0
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 1
+  spriteGenerateFallbackPhysicsShape: 0
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -83,7 +83,7 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -138,9 +138,9 @@ TextureImporter:
       name: PS_DOWN_0
       rect:
         serializedVersion: 2
-        x: 4
+        x: 0
         y: 0
-        width: 8
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -159,9 +159,9 @@ TextureImporter:
       name: PS_DOWN_1
       rect:
         serializedVersion: 2
-        x: 20
+        x: 16
         y: 0
-        width: 8
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -180,9 +180,9 @@ TextureImporter:
       name: PS_DOWN_2
       rect:
         serializedVersion: 2
-        x: 36
+        x: 32
         y: 0
-        width: 8
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -201,9 +201,9 @@ TextureImporter:
       name: PS_DOWN_3
       rect:
         serializedVersion: 2
-        x: 52
+        x: 48
         y: 0
-        width: 8
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -221,14 +221,18 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 618aead50fffa1c4c8e23005595baadf
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PS_DOWN_0: 7363411162449407274
+      PS_DOWN_1: -2899157403016192903
+      PS_DOWN_2: 4419048812139191603
+      PS_DOWN_3: 154503363426158121
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
